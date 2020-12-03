@@ -58,7 +58,7 @@ namespace asp_core_tutorial.Models
                     }
                 
                     );
-
+/*
                 for (int i = 0; i < 10000; i++)
                 {
                     context.Movie.Add(new Movie {
@@ -69,7 +69,7 @@ namespace asp_core_tutorial.Models
                         Price = 3.99M
                     });
                 }
-
+                */
                 context.SaveChanges();
 
             }
